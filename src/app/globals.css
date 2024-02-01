@@ -280,7 +280,7 @@ body {
 }
 
 .input {
-  width: 40px;
+  width: 0px;
   height: 35px;
   border-radius: 10px;
   border: none;
@@ -289,6 +289,9 @@ body {
   background-color: transparent;
   cursor: pointer;
   transition: all .5s ease-in-out;
+}
+input:hover{
+  width: 40px;
 }
 
 .input::placeholder {
