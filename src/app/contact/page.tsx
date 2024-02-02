@@ -7,9 +7,7 @@ function Page() {
             <h1>Contact</h1>
 <Image src={"/contact.png"} width={40} height={50} alt="Image" />
             </div>
-            {/* <div className="w-[50%] h-[500px] relative">
-                <Image src={"/op.webp"} fill alt="Image" />
-            </div> */}
+           
             <div className=" flex justify-center items-center flex-col gap-4 w-[100%]">
                 <div className="w-[90%] lg:w-[80%] relative">
                     <p className="absolute top-[-12px] left-[15px] text-[#07484A] bg-[#eee]">Name</p>

@@ -5,7 +5,8 @@ import  './../globals.css'
 import { useState } from "react";
 import { Headers } from "../data";
 export default function Header () {
-    
+    console.log(" by Sayed Mohamed / 01018364752  ");
+
 const [toggle ,settoggle]=useState(false)
 
 
@@ -41,11 +42,11 @@ const [toggle ,settoggle]=useState(false)
     }
 </div>
 <div className="relative flex">
-    <div className="input-container relative h-[17px] w-[17px] z-50 cursor-pointer mr-[20px] ">
+    <div className="input-container relative h-[17px] w-[17px] z-40 cursor-pointer mr-[20px] ">
 <Image className="icon z-50 w-7" src={"/search.png"} width={30} height={20} alt="Image" />
     <input placeholder="Search something..." className="input z-50" name="tex" type="text"></input>
  </div>
-    <div className="relative h-[17px] w-[17px] cursor-pointer mr-[20px]">
+    <div className="relative h-[17px] w-[17px] cursor-pointer mr-[20px] z-50">
         <Link href={"/cart"}>
 <Image src={"/icon.png"} width={17} height={17}  alt="Image" />
         </Link>

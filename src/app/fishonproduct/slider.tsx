@@ -7,7 +7,6 @@ import Head from './Head';
 function Sliderlaptop() {
     const [slide,steslide]=useState(0)
     const [img,setimg]=useState(0)
-    console.log(img);
     
     return (
         <div className="flex mt-4  flex-col sm:flex-row sm:gap-1 justify-start  h-auto  sm:h-[300px] w-[100%] overflow-hidden  items-start relative">

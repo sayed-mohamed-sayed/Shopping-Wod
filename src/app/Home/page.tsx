@@ -1,6 +1,7 @@
 import Image from "next/image";
 
 function page() {
+    
     return (
        <section>
         <div className="h-[400px] relative">
