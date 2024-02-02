@@ -260,7 +260,7 @@ body {
   
 .input:focus,.input:not(:placeholder-shown) {
   width: 200px !important;
-  right: 200px !important;
+  right: 220px !important;
 
 }
 }
@@ -268,8 +268,8 @@ body {
 @media (max-width:318px) {
   
   .input:focus,.input:not(:placeholder-shown) {
-    width: 190px !important;
-    right: 190px !important;
+    width: 180px !important;
+    right: 205px !important;
   
   }
   }
@@ -310,7 +310,7 @@ input:hover{
   width: 290px;
   cursor:text;
   padding: 18px 16px 18px 40px;
-  right: 270px;
+  right: 280px;
   position: relative;
   top: 1px;
 
