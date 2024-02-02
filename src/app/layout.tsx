@@ -19,8 +19,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body  className={"font-[cursive]"}>
-        <NextTopLoader color='#07484A'/>
         <Header />
+        {/* <NextTopLoader color='#07484A'/> */}
         {children}
         <Footer/>
       </body>
